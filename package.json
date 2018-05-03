@@ -1,0 +1,27 @@
+{
+  "name": "slowsearch",
+  "version": "0.0.0",
+  "description": "Full-text search inside the browser",
+  "main": "lib",
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlowSearch/slowsearch.git"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/SlowSearch/slowsearch/issues"
+  },
+  "homepage": "https://github.com/SlowSearch/slowsearch",
+  "devDependencies": {
+    "rollup": "^0.58.2",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-watch": "^4.3.1"
+  }
+}
